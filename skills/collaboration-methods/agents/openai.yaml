@@ -1,0 +1,4 @@
+interface:
+  display_name: "人机协作方法"
+  short_description: "围绕目标组织人机协作，深入原始材料、拓展方法，并通过证据与交接完成工作"
+  default_prompt: "使用 $collaboration-methods，理解我的真正目标，选择合适方法，推进到有证据的交付。"

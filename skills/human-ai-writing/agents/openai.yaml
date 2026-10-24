@@ -1,0 +1,4 @@
+interface:
+  display_name: "人机共写"
+  short_description: "从零散经验提炼主张、核对证据并协作成稿，支持不同 Agent 接续写作"
+  default_prompt: "使用 $human-ai-writing，从我的素材中提炼值得表达的判断，检查缺口，再协作完成文章。"
