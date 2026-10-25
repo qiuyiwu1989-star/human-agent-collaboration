@@ -13,4 +13,4 @@ for kind,title in [('method','合作方法'),('example','典型示例（非真�
  if not subset:lines+=['目前没有符合证据要求的条目。',''];continue
  for r in subset:
   lines += [f"### {r['id']} · {r['title']}",'',f"- 场景：{'、'.join(r['scenarios'])}；状态：{r['evidence_status']}",f"- 用途：{r['summary']}",f"- 检索词：{'、'.join(r['keywords'])}",f"- 关联：{', '.join(r['related']) or '无'}",'']
-(base/'references/index.md').write_text('\n'.join(lines)+'\n')
+(base/'references/index.md').write_text('\n'.join(lines).rstrip()+'\n')
