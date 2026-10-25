@@ -51,6 +51,13 @@ cp -R skills/human-ai-writing ~/.codex/skills/
 补足关键缺口，再协作成稿。保留我的立场，不虚构经历。
 ```
 
+遇到说不清标准、反复返工或需要提高任务价值时，可用 [发现未知与提升目标](skills/collaboration-methods/references/unknowns-and-ambition.md)：扫盲点、看样稿、提目标、设验证，按需要选用。
+
+```text
+先扫盲点：能查的自己查，说不清的给样稿，只问会改变做法的问题。
+再给一个值得升级的版本，说明成本与验收，先别扩大执行范围。
+```
+
 跨会话或多人协同时使用 [最小交接包](skills/collaboration-methods/references/handoff.md)，传递当前目标、约束、版本、证据、待核事项和下一步。任务状态放在任务自己的空间，公共库仅保存可公开的方法与脱敏示例。
 
 ## 扩展与验证
