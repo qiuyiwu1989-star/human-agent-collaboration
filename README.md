@@ -38,7 +38,7 @@ cp -R skills/human-ai-writing ~/.codex/skills/
 
 ## 结构化目录与检索
 
-当前共有 **3 个可安装 Skill**，其中 collaboration-library 是检索入口，不是新增的一套协作理论。结构化目录包含 **13 个方法条目、4 个典型示例、5 个场景映射、14 个待运行评估用例**。这些是不同粒度，不能相加称作 36 种方法。当前有证据的真实成功经验为 **0 条**；原有材料中的示例不会被包装成成功案例。
+当前共有 **3 个可安装 Skill**，其中 collaboration-library 是检索入口，不是新增的一套协作理论。结构化目录包含 **45 个方法条目、4 个典型示例、5 个场景映射、14 个待运行评估用例、6 个实战复盘案例**。这些是不同粒度，不能相加称作 74 种方法。6 个实战案例标记为 reported-outcome（来源复盘报告），本轮独立复验的历史成功案例为 **0 条**。示例、历史报告和直接观察分开，不把上线或测试通过当成真实业务效果。
 
 - 人阅读：[分类目录](skills/collaboration-library/references/index.md)。
 - AI 调用：[统一检索 Skill](skills/collaboration-library/SKILL.md)。
@@ -90,6 +90,16 @@ python3 skills/collaboration-library/scripts/search.py --status observed-success
 新增技能应源于真实问题：写清适用场景、方法、产物、验证方式及边界。只为确有独立流程的场景新增技能；通用的小技巧优先补充参考文档。避免提前建一套没有实践内容的目录。
 
 [评估用例](evaluations/scenarios.md) 用于检查行为是否符合方法；结构检查通过不能证明协作效果。请在实际使用中记录有效变化、失败条件和用户反馈，提交不含私有资料的改进。
+
+## 本地经验挖掘
+
+本轮补充来自协作契约、需求简报、设备接入、事故诊断、写作引擎、研讨沉淀、设计与记忆规范，以及项目复盘。详见 [检索范围与处理记录](docs/local-mining-2026-10-26.md)。公开库保存独立改写的方法和脱敏来源摘记，私人原件留在本地。
+
+```bash
+python3 skills/collaboration-library/scripts/search.py '负向测试 历史缺陷' --kind method
+python3 skills/collaboration-library/scripts/search.py 'accepted 回读' --kind method
+python3 skills/collaboration-library/scripts/search.py --status reported-outcome --full --limit 6
+```
 
 ## 维护结构化条目
 

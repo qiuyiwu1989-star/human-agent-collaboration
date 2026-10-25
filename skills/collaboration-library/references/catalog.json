@@ -1211,6 +1211,1313 @@
       "related": [
         "M07"
       ]
+    },
+    {
+      "id": "M14",
+      "title": "需求简报与范围锁定",
+      "kind": "method",
+      "scenarios": [
+        "通用"
+      ],
+      "keywords": [
+        "简报",
+        "范围膨胀",
+        "需求"
+      ],
+      "summary": "新功能可能长出结构时，把自然语言压缩成可执行边界。",
+      "when_to_use": "新功能可能长出结构时，把自然语言压缩成可执行边界。",
+      "avoid_when": "小修和明确任务直接执行，不强制新建流程。",
+      "steps": [
+        "明确意图、原因、验收、不做项、影响面和可逆默认值。",
+        "只问改变方案的关键问题，确认后按范围推进。"
+      ],
+      "output": "简短需求说明",
+      "verification": "交付能逐项对应验收；额外想法不自动实现。",
+      "evidence_status": "documented",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/collaboration-library/references/sources/brief.md",
+          "section": "需求简报与范围锁定"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "M15",
+      "title": "短选项决策",
+      "kind": "method",
+      "scenarios": [
+        "通用"
+      ],
+      "keywords": [
+        "拍板",
+        "A/B",
+        "选项",
+        "推荐"
+      ],
+      "summary": "用户需要在重要取舍上快速决定。",
+      "when_to_use": "用户需要在重要取舍上快速决定。",
+      "avoid_when": "用户已明确选择时不再确认。",
+      "steps": [
+        "给少量互斥选项、推荐及一句代价。",
+        "短回复映射到已展示的具体方案，记录适用范围。"
+      ],
+      "output": "可执行决定及授权边界",
+      "verification": "不得把一个字母扩展为未展示的发布或生产操作。",
+      "evidence_status": "documented",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/collaboration-library/references/sources/contract.md",
+          "section": "短选项决策"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "M16",
+      "title": "发布窗口与批次验收",
+      "kind": "method",
+      "scenarios": [
+        "编程",
+        "运维"
+      ],
+      "keywords": [
+        "发布",
+        "冻结",
+        "部署",
+        "用户在测"
+      ],
+      "summary": "用户正在使用或验收时，避免改动破坏现场。",
+      "when_to_use": "用户正在使用或验收时，避免改动破坏现场。",
+      "avoid_when": "不把本方法视为部署授权；紧急恢复按当前授权处理。",
+      "steps": [
+        "提前约定冻结窗口；在开发环境完成一批改动和检查。",
+        "在已有授权范围发布并验证实际运行版本。"
+      ],
+      "output": "批次发布记录",
+      "verification": "测试、发布版本与公网状态分别核对，健康标准依据服务契约。",
+      "evidence_status": "documented",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/collaboration-library/references/sources/contract.md",
+          "section": "发布窗口与批次验收"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "M17",
+      "title": "遗留项明确处置",
+      "kind": "method",
+      "scenarios": [
+        "通用"
+      ],
+      "keywords": [
+        "尾巴",
+        "剩余",
+        "择期"
+      ],
+      "summary": "任务收尾发现真正影响目标的剩余工作。",
+      "when_to_use": "任务收尾发现真正影响目标的剩余工作。",
+      "avoid_when": "不为每个低价值建议制造决策负担。",
+      "steps": [
+        "给现在做、不做、择期的取舍与代价。",
+        "记录已决定的下一步和触发条件。"
+      ],
+      "output": "明确处置的剩余事项",
+      "verification": "不把建议隐藏成默认承诺，不在无变化时重复催问。",
+      "evidence_status": "documented",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/collaboration-library/references/sources/contract.md",
+          "section": "遗留项明确处置"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "M18",
+      "title": "规格驱动的持续推进",
+      "kind": "method",
+      "scenarios": [
+        "通用"
+      ],
+      "keywords": [
+        "长任务",
+        "继续",
+        "停止条件"
+      ],
+      "summary": "已授权任务需要多阶段持续执行。",
+      "when_to_use": "已授权任务需要多阶段持续执行。",
+      "avoid_when": "没有工具或权限时说明限制，不宣称后台仍在工作。",
+      "steps": [
+        "明确目标、完成标准、自测与中止条件。",
+        "自主推进独立事项，遇关键依赖汇总决定。"
+      ],
+      "output": "实际成果与验证记录",
+      "verification": "不依赖用户不断说继续；停止条件避免无界优化。",
+      "evidence_status": "documented",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/collaboration-library/references/sources/workflow.md",
+          "section": "规格驱动的持续推进"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "M19",
+      "title": "机制图作为项目资产",
+      "kind": "method",
+      "scenarios": [
+        "通用",
+        "产品设计"
+      ],
+      "keywords": [
+        "画图",
+        "可视化",
+        "机制",
+        "HTML"
+      ],
+      "summary": "文字难以表达关系、路径或方案差异。",
+      "when_to_use": "文字难以表达关系、路径或方案差异。",
+      "avoid_when": "简单事实不用图；技术通过不等于视觉验收。",
+      "steps": [
+        "围绕一个问题画流程与差异，箭头注明含义。",
+        "复用项目设计系统，标示真实数据与示例。",
+        "把可离线阅读的图与源文件纳入项目版本。"
+      ],
+      "output": "可追溯机制图",
+      "verification": "图上关系和数字有依据，查看实际渲染。",
+      "evidence_status": "documented",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/collaboration-library/references/sources/visual.md",
+          "section": "机制图作为项目资产"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "M20",
+      "title": "先做纵向样板再扩容",
+      "kind": "method",
+      "scenarios": [
+        "产品设计",
+        "编程"
+      ],
+      "keywords": [
+        "样板",
+        "端到端",
+        "扩容",
+        "vertical slice"
+      ],
+      "summary": "大量内容或多模块尚未形成完整交付链。",
+      "when_to_use": "大量内容或多模块尚未形成完整交付链。",
+      "avoid_when": "复盘中的对象数量不是普遍固定指标。",
+      "steps": [
+        "选少量真实对象打通输入、判断、审核和输出。",
+        "验收整条路径后再扩数量。"
+      ],
+      "output": "最小完整样板",
+      "verification": "每环节有实际产物，数量增长不能掩盖断点。",
+      "evidence_status": "documented",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/collaboration-library/references/sources/openvibe.md",
+          "section": "先做纵向样板再扩容"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "M21",
+      "title": "事实、判断与发布权分离",
+      "kind": "method",
+      "scenarios": [
+        "通用",
+        "知识管理"
+      ],
+      "keywords": [
+        "审核",
+        "事实",
+        "发布权"
+      ],
+      "summary": "自动化会生成评价或公开内容。",
+      "when_to_use": "自动化会生成评价或公开内容。",
+      "avoid_when": "只需私人草稿时不引入复杂发布系统。",
+      "steps": [
+        "分别保存事实快照、编辑判断和发布批准。",
+        "候选更新先进入待审状态，保留来源和批准版本。"
+      ],
+      "output": "可审查内容流水线",
+      "verification": "自动产出不等于公开批准；旧批准不覆盖改版。",
+      "evidence_status": "documented",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/collaboration-library/references/sources/openvibe.md",
+          "section": "事实、判断与发布权分离"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "M22",
+      "title": "契约先行与目录所有权",
+      "kind": "method",
+      "scenarios": [
+        "编程"
+      ],
+      "keywords": [
+        "并行",
+        "schema",
+        "所有权"
+      ],
+      "summary": "获准并行时多执行者可能修改同一接口。",
+      "when_to_use": "获准并行时多执行者可能修改同一接口。",
+      "avoid_when": "不自动启动多 Agent；简单任务单人完成。",
+      "steps": [
+        "先定数据契约、错误状态、目录边界和公共文件负责人。",
+        "按可独立验收的产物拆分，统一集成。"
+      ],
+      "output": "工作包和集成契约",
+      "verification": "集成运行共同验收，冲突交由负责人处理。",
+      "evidence_status": "documented",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/collaboration-library/references/sources/openvibe.md",
+          "section": "契约先行与目录所有权"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "M23",
+      "title": "现实证据决定下一阶段",
+      "kind": "method",
+      "scenarios": [
+        "产品设计",
+        "研究"
+      ],
+      "keywords": [
+        "停止扩张",
+        "真实用户",
+        "效果"
+      ],
+      "summary": "工程已完成但核心价值还未验证。",
+      "when_to_use": "工程已完成但核心价值还未验证。",
+      "avoid_when": "联系真实用户仍需当前授权。",
+      "steps": [
+        "分开工程完成与真实场景效果。",
+        "先做小规模现实验证，再决定下一轮扩张。"
+      ],
+      "output": "待验证命题和最小试验",
+      "verification": "不把页面、测试或内容数量当成效果。",
+      "evidence_status": "documented",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/collaboration-library/references/sources/openvibe.md",
+          "section": "现实证据决定下一阶段"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "M24",
+      "title": "事故驱动门禁与负向测试",
+      "kind": "method",
+      "scenarios": [
+        "编程"
+      ],
+      "keywords": [
+        "验证闸门",
+        "负向测试",
+        "mutation",
+        "历史缺陷"
+      ],
+      "summary": "同类缺陷反复出现或静默失效。",
+      "when_to_use": "同类缺陷反复出现或静默失效。",
+      "avoid_when": "不盲目增加维护成本高且无风险依据的检查。",
+      "steps": [
+        "把历史缺陷或高风险契约转成明确失败检查。",
+        "在隔离副本注入缺陷，确认门禁能阻断。",
+        "恢复后确认正常通过，记录规则理由。"
+      ],
+      "output": "能抓错的门禁",
+      "verification": "同时验证失败样本和正常样本；命令失败必须阻断后续发布。",
+      "evidence_status": "documented",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/collaboration-library/references/sources/gate.md",
+          "section": "事故驱动门禁与负向测试"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "M25",
+      "title": "单一真源与线上版本一致",
+      "kind": "method",
+      "scenarios": [
+        "编程",
+        "运维"
+      ],
+      "keywords": [
+        "配置漂移",
+        "唯一真源",
+        "线上仓库"
+      ],
+      "summary": "多个副本或手工上线导致实际版本不清。",
+      "when_to_use": "多个副本或手工上线导致实际版本不清。",
+      "avoid_when": "未经授权不删除旧文件或线上资源。",
+      "steps": [
+        "确认生效路径，再比较副本内容。",
+        "收敛权威源和生成链，版本控制运行所需产物与配置模板。",
+        "验证部署版本可回溯。"
+      ],
+      "output": "权威源映射与漂移修复",
+      "verification": "不能只按文件名判断副本价值；秘密只留受控配置。",
+      "evidence_status": "documented",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/collaboration-library/references/sources/education.md",
+          "section": "单一真源与线上版本一致"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "M26",
+      "title": "业务结果控制队列推进",
+      "kind": "method",
+      "scenarios": [
+        "编程"
+      ],
+      "keywords": [
+        "success",
+        "队列",
+        "静默丢失",
+        "error"
+      ],
+      "summary": "外部接口可能 HTTP 成功但业务全部失败。",
+      "when_to_use": "外部接口可能 HTTP 成功但业务全部失败。",
+      "avoid_when": "success>0 也不能证明整批完成。",
+      "steps": [
+        "定义业务成功和部分成功的判据。",
+        "只推进确认成功的条目，失败保留可重试状态。",
+        "覆盖无 error 字段、部分拒收和结果未知。"
+      ],
+      "output": "业务回执与可靠队列",
+      "verification": "测试零成功时不消费队列，部分成功不重做已成功项。",
+      "evidence_status": "documented",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/collaboration-library/references/sources/education.md",
+          "section": "业务结果控制队列推进"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "M27",
+      "title": "验证降级不降结论标准",
+      "kind": "method",
+      "scenarios": [
+        "通用",
+        "编程"
+      ],
+      "keywords": [
+        "工具不可用",
+        "DOM",
+        "截图",
+        "降级"
+      ],
+      "summary": "首选验证工具不可用。",
+      "when_to_use": "首选验证工具不可用。",
+      "avoid_when": "替代检查不能伪装成原验收已完成。",
+      "steps": [
+        "寻找可运行的次级验证，例如实际执行、静态检查。",
+        "逐项说明各手段覆盖和未覆盖部分。"
+      ],
+      "output": "分层验证报告",
+      "verification": "DOM 运行不声称视觉已通过；不无限重试同一工具。",
+      "evidence_status": "documented",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/collaboration-library/references/sources/workflow.md",
+          "section": "验证降级不降结论标准"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "M28",
+      "title": "环境变化后重验旧结论",
+      "kind": "method",
+      "scenarios": [
+        "通用",
+        "运维"
+      ],
+      "keywords": [
+        "旧记忆",
+        "迁移",
+        "过期"
+      ],
+      "summary": "迁移、改路由或版本更新后将使用旧判断。",
+      "when_to_use": "迁移、改路由或版本更新后将使用旧判断。",
+      "avoid_when": "只在相关环境改变或确有疑问时复验。",
+      "steps": [
+        "定位结论原来的环境、时间和证据。",
+        "在当前环境重新取证再执行依赖动作。"
+      ],
+      "output": "当前有效判断与历史理由",
+      "verification": "旧记录保留，不把入库新鲜当成事实新鲜。",
+      "evidence_status": "documented",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/collaboration-library/references/sources/workflow.md",
+          "section": "环境变化后重验旧结论"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "M29",
+      "title": "真实协议探针先于实现",
+      "kind": "method",
+      "scenarios": [
+        "编程",
+        "设备接入"
+      ],
+      "keywords": [
+        "探针",
+        "真实返回",
+        "协议"
+      ],
+      "summary": "第三方文档与现场行为可能不一致。",
+      "when_to_use": "第三方文档与现场行为可能不一致。",
+      "avoid_when": "不得把原始敏感响应、密钥或个人文件打印到公开日志。",
+      "steps": [
+        "确认环境、账号权限与业务生命周期。",
+        "用最小合法请求记录脱敏响应形状。",
+        "以真实形状建立契约测试。"
+      ],
+      "output": "文档与实测差异",
+      "verification": "错误测试也能全绿；以真实可追溯样本校验。",
+      "evidence_status": "documented",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/collaboration-library/references/sources/iot.md",
+          "section": "真实协议探针先于实现"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "M30",
+      "title": "生命周期幂等与状态演进",
+      "kind": "method",
+      "scenarios": [
+        "编程",
+        "设备接入"
+      ],
+      "keywords": [
+        "幂等",
+        "eventId",
+        "重复",
+        "ready"
+      ],
+      "summary": "同一业务 ID 会经历开始、完成和分片等状态。",
+      "when_to_use": "同一业务 ID 会经历开始、完成和分片等状态。",
+      "avoid_when": "不要无条件套用某个 ID 拼接公式。",
+      "steps": [
+        "观察完整生命周期，确认 ID 稳定性与复用范围。",
+        "按业务实体、状态或版本定义去重与更新。",
+        "覆盖重复、乱序和签名链接变化。"
+      ],
+      "output": "幂等契约",
+      "verification": "有效状态升级不能被当作重放丢弃；临时 URL 不作实体身份。",
+      "evidence_status": "documented",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/collaboration-library/references/sources/iot.md",
+          "section": "生命周期幂等与状态演进"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "M31",
+      "title": "接收台账与可解释丢弃",
+      "kind": "method",
+      "scenarios": [
+        "设备接入",
+        "编程"
+      ],
+      "keywords": [
+        "丢弃",
+        "台账",
+        "没收到",
+        "可观测"
+      ],
+      "summary": "对方未发和本方丢弃表现相同。",
+      "when_to_use": "对方未发和本方丢弃表现相同。",
+      "avoid_when": "不无条件持久化未鉴权的攻击负载。",
+      "steps": [
+        "合法接收后先持久化必要台账，再异步处理。",
+        "记录拒收、去重、降级的原因与判据。",
+        "对照发送方与接收方记录。"
+      ],
+      "output": "收发处理链证据",
+      "verification": "明示台账覆盖边界，敏感数据最小化保存。",
+      "evidence_status": "documented",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/collaboration-library/references/sources/iot.md",
+          "section": "接收台账与可解释丢弃"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "M32",
+      "title": "时间敏感任务独立节拍",
+      "kind": "method",
+      "scenarios": [
+        "设备接入",
+        "编程"
+      ],
+      "keywords": [
+        "调度",
+        "队列",
+        "过期",
+        "节拍"
+      ],
+      "summary": "慢任务会阻塞有过期窗口的数据获取。",
+      "when_to_use": "慢任务会阻塞有过期窗口的数据获取。",
+      "avoid_when": "独立计时器不是所有系统的通用实现。",
+      "steps": [
+        "量实际执行间隔，区分优先级与迭代时长。",
+        "隔离时间敏感调度并加重入保护。",
+        "检查共享配额、状态和降级路径。"
+      ],
+      "output": "实际节拍与隔离设计",
+      "verification": "延迟和失败恢复可测；不靠调顺序推断执行频率。",
+      "evidence_status": "documented",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/collaboration-library/references/sources/iot.md",
+          "section": "时间敏感任务独立节拍"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "M33",
+      "title": "不变量与路径细节分开",
+      "kind": "method",
+      "scenarios": [
+        "编程"
+      ],
+      "keywords": [
+        "约束",
+        "不变量",
+        "状态成功"
+      ],
+      "summary": "新增处理路径与旧数据库条件冲突。",
+      "when_to_use": "新增处理路径与旧数据库条件冲突。",
+      "avoid_when": "数据库迁移另按任务授权实施。",
+      "steps": [
+        "明确成功必须成立的事实。",
+        "把旧路径特有字段从业务不变量中分离。",
+        "为真实不变量补契约检查。"
+      ],
+      "output": "兼容新路径的约束",
+      "verification": "不能为了消除报错而删除数据完整性条件。",
+      "evidence_status": "documented",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/collaboration-library/references/sources/iot.md",
+          "section": "不变量与路径细节分开"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "M34",
+      "title": "分层取证与错误聚类",
+      "kind": "method",
+      "scenarios": [
+        "运维"
+      ],
+      "keywords": [
+        "事故",
+        "502",
+        "SSH",
+        "公网"
+      ],
+      "summary": "用户报告不可用、慢或大量失败。",
+      "when_to_use": "用户报告不可用、慢或大量失败。",
+      "avoid_when": "管理连接失败不等于用户服务宕机；不无限重连。",
+      "steps": [
+        "核对最近变更，再分别观察用户面、管理面和服务面。",
+        "按错误类型、数量和时间分布定位。",
+        "报告因果链与防复发。"
+      ],
+      "output": "证据支持的根因",
+      "verification": "网络代理、DNS、TLS 和应用分别核验；状态码不独立证明健康。",
+      "evidence_status": "documented",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/collaboration-library/references/sources/incident.md",
+          "section": "分层取证与错误聚类"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "M35",
+      "title": "迁移预检与真实回滚条件",
+      "kind": "method",
+      "scenarios": [
+        "运维"
+      ],
+      "keywords": [
+        "迁移",
+        "回滚",
+        "备份",
+        "存储"
+      ],
+      "summary": "数据或服务迁到另一环境。",
+      "when_to_use": "数据或服务迁到另一环境。",
+      "avoid_when": "切回地址不保证零数据丢失；需处理切换后的新写入。",
+      "steps": [
+        "确认依赖、权限、版本、网络和共享资源边界。",
+        "分别处理数据、登录、扩展与对象存储。",
+        "定义切换后新写入如何对账及回退。"
+      ],
+      "output": "迁移清单与回滚判据",
+      "verification": "行数、关键功能和对象完整性分开验收。",
+      "evidence_status": "documented",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/collaboration-library/references/sources/migrate.md",
+          "section": "迁移预检与真实回滚条件"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "M36",
+      "title": "指令接受不等于设备完成",
+      "kind": "method",
+      "scenarios": [
+        "设备接入"
+      ],
+      "keywords": [
+        "accepted",
+        "回读",
+        "reportedAt",
+        "在线"
+      ],
+      "summary": "外部指令成功返回但实际设备状态未确认。",
+      "when_to_use": "外部指令成功返回但实际设备状态未确认。",
+      "avoid_when": "不得凭固件灯色或文档猜现场状态。",
+      "steps": [
+        "区分保存、厂商接受、设备执行、实机确认和数据交付。",
+        "回读状态附上报时间，缓存过期显示未知。",
+        "有界轮询，保留离线任务与恢复入口。"
+      ],
+      "output": "逐阶段验收记录",
+      "verification": "设备在线不等于录音已到；查询时间不是上报时间。",
+      "evidence_status": "documented",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/collaboration-library/references/sources/device.md",
+          "section": "指令接受不等于设备完成"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "M37",
+      "title": "按事件时间确定归属",
+      "kind": "method",
+      "scenarios": [
+        "设备接入",
+        "知识管理"
+      ],
+      "keywords": [
+        "归属",
+        "时间区间",
+        "改派"
+      ],
+      "summary": "事件延迟到达且实体持有人可能变化。",
+      "when_to_use": "事件延迟到达且实体持有人可能变化。",
+      "avoid_when": "时间缺失或冲突应待核，不按当前持有人猜测。",
+      "steps": [
+        "保存有效持有区间和事件发生时间。",
+        "以当时有效关系归属数据。",
+        "派发旧任务前复核当前对象，避免覆盖新持有人。"
+      ],
+      "output": "可追溯归属规则",
+      "verification": "跨租户、延迟到达、改派和重放分别测试。",
+      "evidence_status": "documented",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/collaboration-library/references/sources/device.md",
+          "section": "按事件时间确定归属"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "M38",
+      "title": "冻结范围、版本守卫与一次撤销",
+      "kind": "method",
+      "scenarios": [
+        "产品设计",
+        "编程"
+      ],
+      "keywords": [
+        "共创",
+        "提案",
+        "撤销",
+        "冻结范围"
+      ],
+      "summary": "AI 提案和人的编辑可能同时发生。",
+      "when_to_use": "AI 提案和人的编辑可能同时发生。",
+      "avoid_when": "测试合成提案不能证明真实用户体验或跨设备安全。",
+      "steps": [
+        "发起时保存范围和基线版本。",
+        "应用前展示差异并拦截过期、重复提案。",
+        "原稿保留，批量应用形成一次可撤销修改。"
+      ],
+      "output": "可审阅可恢复提案",
+      "verification": "范围不跟随新选择漂移；撤销不让已消费提案再次生效。",
+      "evidence_status": "documented",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/collaboration-library/references/sources/canvas.md",
+          "section": "冻结范围、版本守卫与一次撤销"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "M39",
+      "title": "真实安装路径与资源清理验收",
+      "kind": "method",
+      "scenarios": [
+        "编程"
+      ],
+      "keywords": [
+        "安装",
+        "插件",
+        "dispose",
+        "HMR"
+      ],
+      "summary": "库内测试通过但用户安装或组合可能失败。",
+      "when_to_use": "库内测试通过但用户安装或组合可能失败。",
+      "avoid_when": "安装第三方代码需遵守当前权限；不复制过期框架命令。",
+      "steps": [
+        "在隔离环境按 README 精确命令安装。",
+        "验证实际导出、运行面和组合配置。",
+        "验证卸载、重载后计时器、监听和资源清理。"
+      ],
+      "output": "安装及生命周期验证",
+      "verification": "测试分发产物，而非只测开发目录。",
+      "evidence_status": "documented",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/collaboration-library/references/sources/plugin.md",
+          "section": "真实安装路径与资源清理验收"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "M40",
+      "title": "记忆分层与渐进读取",
+      "kind": "method",
+      "scenarios": [
+        "知识管理"
+      ],
+      "keywords": [
+        "索引",
+        "按需读取",
+        "候选",
+        "记忆"
+      ],
+      "summary": "多个 Agent 复用背景但容易读太多或误用候选。",
+      "when_to_use": "多个 Agent 复用背景但容易读太多或误用候选。",
+      "avoid_when": "本方法不代替实际权限过滤和治理契约。",
+      "steps": [
+        "先读目录摘要再选详情，必要时回原文。",
+        "区分档案、候选和确认判断，保留版本及取代关系。",
+        "空结果不偷偷用未确认候选补位。"
+      ],
+      "output": "有来源和有效期的上下文",
+      "verification": "引用存在不证明概括成立；检索热度不提升可信度。",
+      "evidence_status": "documented",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/collaboration-library/references/sources/memory.md",
+          "section": "记忆分层与渐进读取"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "M41",
+      "title": "真实声音样本与作者判断边界",
+      "kind": "method",
+      "scenarios": [
+        "写作"
+      ],
+      "keywords": [
+        "声音",
+        "署名",
+        "样本",
+        "原话"
+      ],
+      "summary": "生成内容容易冒充作者经验或污染声音样本。",
+      "when_to_use": "生成内容容易冒充作者经验或污染声音样本。",
+      "avoid_when": "来源项目的署名规则不自动约束其他用户；遵循当前任务。",
+      "steps": [
+        "从可确认的原话或亲笔材料提取表达特征。",
+        "区分整理已有判断与新增论证，按作者要求确定代写范围。",
+        "AI 加工稿与原始声音样本分开。"
+      ],
+      "output": "有来源的写作约束",
+      "verification": "不以形容词代替样本，不将 AI 新判断署为作者原话。",
+      "evidence_status": "documented",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/collaboration-library/references/sources/writing.md",
+          "section": "真实声音样本与作者判断边界"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "M42",
+      "title": "研讨五类来源分开",
+      "kind": "method",
+      "scenarios": [
+        "写作",
+        "知识管理"
+      ],
+      "keywords": [
+        "研讨",
+        "说话人",
+        "转写",
+        "沉淀"
+      ],
+      "summary": "一次研讨与后续讨论要整理成可复用文章。",
+      "when_to_use": "一次研讨与后续讨论要整理成可复用文章。",
+      "avoid_when": "统一说话人标签不证明只有一名发言人。",
+      "steps": [
+        "区分现场原话、后来补充、AI 提炼、外部证据和待验证建议。",
+        "说话人确认仅作用于对应录音。",
+        "保留实质论证、反例与纠正，公开稿与私有材料分离。"
+      ],
+      "output": "可追溯研讨文章",
+      "verification": "不得把后续概括写成现场原话或虚构共识。",
+      "evidence_status": "documented",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/collaboration-library/references/sources/seminar.md",
+          "section": "研讨五类来源分开"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "M43",
+      "title": "幂等写回与不确定结果恢复",
+      "kind": "method",
+      "scenarios": [
+        "知识管理",
+        "编程"
+      ],
+      "keywords": [
+        "回执",
+        "重试",
+        "request_id",
+        "发布"
+      ],
+      "summary": "外部写入超时可能已经成功。",
+      "when_to_use": "外部写入超时可能已经成功。",
+      "avoid_when": "当前服务必须实际支持幂等；不凭方法假设 API 存在。",
+      "steps": [
+        "请求前固定 ID 与负载摘要。",
+        "结果未知先核对或以同一 ID 恢复。",
+        "核对对象、版本和实际可见内容。"
+      ],
+      "output": "可核验写回状态",
+      "verification": "相同消息去重，改内容用新版本；不能用调用成功代替交付验证。",
+      "evidence_status": "documented",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/collaboration-library/references/sources/seminar.md",
+          "section": "幂等写回与不确定结果恢复"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "M44",
+      "title": "设计版本与可编辑性显式交付",
+      "kind": "method",
+      "scenarios": [
+        "产品设计"
+      ],
+      "keywords": [
+        "设计包",
+        "可编辑",
+        "栅格化",
+        "保真"
+      ],
+      "summary": "生成设计需要人继续编辑或转换格式。",
+      "when_to_use": "生成设计需要人继续编辑或转换格式。",
+      "avoid_when": "机器检查不能认证审美；缺证据不编造素材。",
+      "steps": [
+        "按沟通目标选设计规范并固定版本。",
+        "标识事实来源与每个元素的可编辑能力。",
+        "报告降级、遗漏和视觉检查结果。"
+      ],
+      "output": "设计稿与能力清单",
+      "verification": "栅格图不能称为原生可编辑；已确认的人类修改不能静默覆盖。",
+      "evidence_status": "documented",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/collaboration-library/references/sources/design.md",
+          "section": "设计版本与可编辑性显式交付"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "M45",
+      "title": "按未知编排方法而非堆框架",
+      "kind": "method",
+      "scenarios": [
+        "通用",
+        "研究"
+      ],
+      "keywords": [
+        "方法编排",
+        "InnoLab",
+        "索引",
+        "不适用"
+      ],
+      "summary": "大量方法可选但用户只需要关键判断。",
+      "when_to_use": "大量方法可选但用户只需要关键判断。",
+      "avoid_when": "不强制每题走全部引擎；保留来源作者与许可边界。",
+      "steps": [
+        "先看索引，识别用户已知和核心未知。",
+        "选择少量能改变结果的方法再读详情。",
+        "回到具体判断、证据与下一步，不适用时直说。"
+      ],
+      "output": "有选择理由的方法组合",
+      "verification": "不发明方法 ID，不把多个框架重复表达当成深度。",
+      "evidence_status": "documented",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/collaboration-library/references/sources/innolab.md",
+          "section": "按未知编排方法而非堆框架"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "X01",
+      "title": "先小样板后扩量与入口纠偏",
+      "kind": "experience",
+      "scenarios": [
+        "实战复盘"
+      ],
+      "keywords": [
+        "先小样板后扩量与入口纠偏",
+        "经验",
+        "复盘",
+        "先做纵向样板再扩容",
+        "现实证据决定下一阶段"
+      ],
+      "summary": "产品复盘记载先以少量项目贯通处理链，再扩大内容；用户指出入门难后重做新手入口。",
+      "when_to_use": "参考同类问题的失败机制、处理办法与验收边界。",
+      "avoid_when": "本次未重跑工程或用户试验，不把上线等同教育效果。",
+      "steps": [
+        "读清来源报告与局限。",
+        "选取关联方法应用到当前环境，并重新验收。"
+      ],
+      "output": "适用于当前任务的行动与验证",
+      "verification": "不能用来源自述代替当前执行证据。",
+      "evidence_status": "reported-outcome",
+      "outcome": {
+        "context": "产品复盘记载先以少量项目贯通处理链，再扩大内容；用户指出入门难后重做新手入口。",
+        "action": "来源方法见关联条目。",
+        "result": "复盘报告产品上线与运行闭环；真实学习效果仍待现场验证。",
+        "limitations": "本次未重跑工程或用户试验，不把上线等同教育效果。",
+        "evidence": [
+          "skills/collaboration-library/references/sources/openvibe.md"
+        ]
+      },
+      "sources": [
+        {
+          "path": "skills/collaboration-library/references/sources/openvibe.md",
+          "section": "案例：先小样板后扩量与入口纠偏"
+        }
+      ],
+      "related": [
+        "M20",
+        "M23"
+      ]
+    },
+    {
+      "id": "X02",
+      "title": "故障注入检查验证器",
+      "kind": "experience",
+      "scenarios": [
+        "实战复盘"
+      ],
+      "keywords": [
+        "故障注入检查验证器",
+        "经验",
+        "复盘",
+        "事故驱动门禁与负向测试"
+      ],
+      "summary": "复盘记载注入历史格式与版本缺陷，验证脚本能够拒绝，并在恢复后通过。",
+      "when_to_use": "参考同类问题的失败机制、处理办法与验收边界。",
+      "avoid_when": "本次读到的是复盘，不是当时命令的独立执行结果。",
+      "steps": [
+        "读清来源报告与局限。",
+        "选取关联方法应用到当前环境，并重新验收。"
+      ],
+      "output": "适用于当前任务的行动与验证",
+      "verification": "不能用来源自述代替当前执行证据。",
+      "evidence_status": "reported-outcome",
+      "outcome": {
+        "context": "复盘记载注入历史格式与版本缺陷，验证脚本能够拒绝，并在恢复后通过。",
+        "action": "来源方法见关联条目。",
+        "result": "原文报告发现注入问题及衍生问题。",
+        "limitations": "本次读到的是复盘，不是当时命令的独立执行结果。",
+        "evidence": [
+          "skills/collaboration-library/references/sources/gate.md"
+        ]
+      },
+      "sources": [
+        {
+          "path": "skills/collaboration-library/references/sources/gate.md",
+          "section": "案例：故障注入检查验证器"
+        }
+      ],
+      "related": [
+        "M24"
+      ]
+    },
+    {
+      "id": "X03",
+      "title": "接口没有 error 仍然整批失败",
+      "kind": "experience",
+      "scenarios": [
+        "实战复盘"
+      ],
+      "keywords": [
+        "接口没有 error 仍然整批失败",
+        "经验",
+        "复盘",
+        "业务结果控制队列推进"
+      ],
+      "summary": "复盘记录外部接口返回零成功却没有 error 字段，旧脚本错误推进队列。",
+      "when_to_use": "参考同类问题的失败机制、处理办法与验收边界。",
+      "avoid_when": "不推断所有接口都使用相同字段或成功定义。",
+      "steps": [
+        "读清来源报告与局限。",
+        "选取关联方法应用到当前环境，并重新验收。"
+      ],
+      "output": "适用于当前任务的行动与验证",
+      "verification": "不能用来源自述代替当前执行证据。",
+      "evidence_status": "reported-outcome",
+      "outcome": {
+        "context": "复盘记录外部接口返回零成功却没有 error 字段，旧脚本错误推进队列。",
+        "action": "来源方法见关联条目。",
+        "result": "来源报告改为按业务结果判定并保留失败状态。",
+        "limitations": "不推断所有接口都使用相同字段或成功定义。",
+        "evidence": [
+          "skills/collaboration-library/references/sources/education.md"
+        ]
+      },
+      "sources": [
+        {
+          "path": "skills/collaboration-library/references/sources/education.md",
+          "section": "案例：接口没有 error 仍然整批失败"
+        }
+      ],
+      "related": [
+        "M26"
+      ]
+    },
+    {
+      "id": "X04",
+      "title": "设备 accepted 与可用状态混淆",
+      "kind": "experience",
+      "scenarios": [
+        "实战复盘"
+      ],
+      "keywords": [
+        "设备 accepted 与可用状态混淆",
+        "经验",
+        "复盘",
+        "指令接受不等于设备完成",
+        "按事件时间确定归属"
+      ],
+      "summary": "复盘撤回把授权标记和指令接受当成设备可用的判断，改用设备回读并附新鲜度。",
+      "when_to_use": "参考同类问题的失败机制、处理办法与验收边界。",
+      "avoid_when": "这是纠错与部分验收案例，不是端到端成功。",
+      "steps": [
+        "读清来源报告与局限。",
+        "选取关联方法应用到当前环境，并重新验收。"
+      ],
+      "output": "适用于当前任务的行动与验证",
+      "verification": "不能用来源自述代替当前执行证据。",
+      "evidence_status": "reported-outcome",
+      "outcome": {
+        "context": "复盘撤回把授权标记和指令接受当成设备可用的判断，改用设备回读并附新鲜度。",
+        "action": "来源方法见关联条目。",
+        "result": "来源记载某次可用状态回读通过，但实机显示与录音交付仍有未完成项。",
+        "limitations": "这是纠错与部分验收案例，不是端到端成功。",
+        "evidence": [
+          "skills/collaboration-library/references/sources/device.md"
+        ]
+      },
+      "sources": [
+        {
+          "path": "skills/collaboration-library/references/sources/device.md",
+          "section": "案例：设备 accepted 与可用状态混淆"
+        }
+      ],
+      "related": [
+        "M36",
+        "M37"
+      ]
+    },
+    {
+      "id": "X05",
+      "title": "共创交接保留原稿并支持撤销",
+      "kind": "experience",
+      "scenarios": [
+        "实战复盘"
+      ],
+      "keywords": [
+        "共创交接保留原稿并支持撤销",
+        "经验",
+        "复盘",
+        "冻结范围、版本守卫与一次撤销"
+      ],
+      "summary": "来源记录合成画布经转换、提案应用与撤销验证；本次读取完整性摘要，其 sceneUnchanged 为 true。",
+      "when_to_use": "参考同类问题的失败机制、处理办法与验收边界。",
+      "avoid_when": "只核对既存报告与摘要，未重新执行浏览器；摘要不单独证明全流程。",
+      "steps": [
+        "读清来源报告与局限。",
+        "选取关联方法应用到当前环境，并重新验收。"
+      ],
+      "output": "适用于当前任务的行动与验证",
+      "verification": "不能用来源自述代替当前执行证据。",
+      "evidence_status": "reported-outcome",
+      "outcome": {
+        "context": "来源记录合成画布经转换、提案应用与撤销验证；本次读取完整性摘要，其 sceneUnchanged 为 true。",
+        "action": "来源方法见关联条目。",
+        "result": "来源报告原稿不变并新增检查点；保留测试与浏览器覆盖限制。",
+        "limitations": "只核对既存报告与摘要，未重新执行浏览器；摘要不单独证明全流程。",
+        "evidence": [
+          "skills/collaboration-library/references/sources/canvas.md"
+        ]
+      },
+      "sources": [
+        {
+          "path": "skills/collaboration-library/references/sources/canvas.md",
+          "section": "案例：共创交接保留原稿并支持撤销"
+        }
+      ],
+      "related": [
+        "M38"
+      ]
+    },
+    {
+      "id": "X06",
+      "title": "浏览器不可用时补实际脚本验证",
+      "kind": "experience",
+      "scenarios": [
+        "实战复盘"
+      ],
+      "keywords": [
+        "浏览器不可用时补实际脚本验证",
+        "经验",
+        "复盘",
+        "验证降级不降结论标准"
+      ],
+      "summary": "复盘记录截图能力不可用，随后用最小 DOM 环境实际执行导航脚本，并做缺失项负向检查。",
+      "when_to_use": "参考同类问题的失败机制、处理办法与验收边界。",
+      "avoid_when": "验证替代只覆盖结构与执行，不能把视觉缺口抹掉。",
+      "steps": [
+        "读清来源报告与局限。",
+        "选取关联方法应用到当前环境，并重新验收。"
+      ],
+      "output": "适用于当前任务的行动与验证",
+      "verification": "不能用来源自述代替当前执行证据。",
+      "evidence_status": "reported-outcome",
+      "outcome": {
+        "context": "复盘记录截图能力不可用，随后用最小 DOM 环境实际执行导航脚本，并做缺失项负向检查。",
+        "action": "来源方法见关联条目。",
+        "result": "来源报告结构测试通过，仍明确没有完成视觉截图验收。",
+        "limitations": "验证替代只覆盖结构与执行，不能把视觉缺口抹掉。",
+        "evidence": [
+          "skills/collaboration-library/references/sources/workflow.md"
+        ]
+      },
+      "sources": [
+        {
+          "path": "skills/collaboration-library/references/sources/workflow.md",
+          "section": "案例：浏览器不可用时补实际脚本验证"
+        }
+      ],
+      "related": [
+        "M27"
+      ]
     }
   ]
 }

@@ -35,7 +35,7 @@ def main():
     p.add_argument('--id'); p.add_argument('--related')
     p.add_argument('--kind', choices=['method','example','scenario','evaluation','experience'])
     p.add_argument('--scenario')
-    p.add_argument('--status', choices=['documented','illustrative','unevaluated','observed-success','observed-failure'])
+    p.add_argument('--status', choices=['documented','illustrative','unevaluated','observed-success','observed-failure','reported-outcome'])
     p.add_argument('--limit',type=int,default=5);p.add_argument('--full',action='store_true')
     a=p.parse_args()
     if a.limit < 1: p.error('--limit must be positive')

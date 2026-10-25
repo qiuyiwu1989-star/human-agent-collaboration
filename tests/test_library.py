@@ -20,12 +20,12 @@ class LibraryTests(unittest.TestCase):
                 self.assertTrue(r[field],(r['id'],field))
             self.assertTrue(set(r['related']) <= ids)
             self.assertIn(r['kind'],['method','example','scenario','evaluation','experience'])
-            self.assertIn(r['evidence_status'],['documented','illustrative','unevaluated','observed-success','observed-failure'])
+            self.assertIn(r['evidence_status'],['documented','illustrative','unevaluated','observed-success','observed-failure','reported-outcome'])
             for source in r['sources']:
                 path=(ROOT/source['path']).resolve()
                 self.assertTrue(path.is_relative_to(ROOT))
                 self.assertIn(source['section'],path.read_text())
-            if r['evidence_status'].startswith('observed-'):
+            if r['evidence_status'].startswith('observed-') or r['evidence_status']=='reported-outcome':
                 self.assertEqual(r['kind'],'experience')
                 for key in ('context','action','result','limitations','evidence'):self.assertTrue(r['outcome'][key])
                 for evidence in r['outcome']['evidence']:
@@ -40,6 +40,13 @@ class LibraryTests(unittest.TestCase):
         self.assertTrue(all(r['kind']=='method' and '写作' in r['scenarios'] for _,r in results))
         self.assertEqual(search.search(records,status='observed-success'),[])
         self.assertEqual(search.search(records,'zzzzunmatchedterm'),[])
+    def test_mined_methods_and_reported_outcomes(self):
+        for query,title in [('负向测试 历史缺陷','事故驱动门禁与负向测试'),('accepted 回读 reportedAt','指令接受不等于设备完成'),('request_id 回执 重试','幂等写回与不确定结果恢复')]:
+            self.assertIn(title,[r['title'] for _,r in search.search(records,query,kind='method')[:3]])
+        cases=search.search(records,status='reported-outcome')
+        self.assertEqual(len(cases),6)
+        self.assertTrue(all(r['kind']=='experience' and r['outcome']['limitations'] for _,r in cases))
+
     def test_standalone_copy_and_cli(self):
         import shutil
         with tempfile.TemporaryDirectory() as tmp:
