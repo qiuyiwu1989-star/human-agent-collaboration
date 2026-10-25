@@ -1,0 +1,1216 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": "M01",
+      "title": "发现关键未知",
+      "kind": "method",
+      "scenarios": [
+        "通用",
+        "产品设计"
+      ],
+      "keywords": [
+        "盲点",
+        "unknowns",
+        "需求不清",
+        "没想到",
+        "说不清"
+      ],
+      "summary": "任务模糊或出现新约束时，识别会改变做法的缺口。",
+      "when_to_use": "任务模糊或出现新约束时，识别会改变做法的缺口。",
+      "avoid_when": "明确的小任务不强制套用完整流程；不扩大当前授权。",
+      "steps": [
+        "读取已有材料，分清事实、推断与偏好。",
+        "事实缺口先查；隐含偏好用样稿；只问关键决定。"
+      ],
+      "output": "关键缺口、影响与查明办法",
+      "verification": "关键假设是否得到证据支持；未确认的保留为未知。",
+      "evidence_status": "documented",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/collaboration-methods/SKILL.md",
+          "section": "发现关键未知"
+        }
+      ],
+      "related": [
+        "M02",
+        "M03"
+      ]
+    },
+    {
+      "id": "M02",
+      "title": "样稿发现标准",
+      "kind": "method",
+      "scenarios": [
+        "产品设计",
+        "写作"
+      ],
+      "keywords": [
+        "原型",
+        "样稿",
+        "prototype",
+        "不够好",
+        "说不上来",
+        "偏好"
+      ],
+      "summary": "用户难以描述标准，但能对具体成果作判断。",
+      "when_to_use": "用户难以描述标准，但能对具体成果作判断。",
+      "avoid_when": "明确的小任务不强制套用完整流程；不扩大当前授权。",
+      "steps": [
+        "围绕关键分歧做两三个低成本方向。",
+        "收集喜欢、排斥和必须保留的部分。",
+        "将反馈变成本任务验收条件。"
+      ],
+      "output": "差异明确的样稿与验收条件",
+      "verification": "用户对实际样稿的反馈；不虚构体验验证。",
+      "evidence_status": "documented",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/collaboration-methods/references/unknowns-and-ambition.md",
+          "section": "2. 看样稿：让标准浮现"
+        }
+      ],
+      "related": [
+        "M01",
+        "M06"
+      ]
+    },
+    {
+      "id": "M03",
+      "title": "提高目标层次",
+      "kind": "method",
+      "scenarios": [
+        "通用"
+      ],
+      "keywords": [
+        "目标",
+        "ambition",
+        "高度",
+        "结果",
+        "任务升级"
+      ],
+      "summary": "用户给的是手段，实际期望结果尚不清楚。",
+      "when_to_use": "用户给的是手段，实际期望结果尚不清楚。",
+      "avoid_when": "明确的小任务不强制套用完整流程；不扩大当前授权。",
+      "steps": [
+        "识别完成后希望发生的变化。",
+        "保留产物、期限、预算，说明升级的增量成本。",
+        "显著扩大范围时由用户决定。"
+      ],
+      "output": "原任务与升级版本、成本及验收对照",
+      "verification": "结果可检查，范围变化得到明确选择。",
+      "evidence_status": "documented",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/collaboration-methods/SKILL.md",
+          "section": "提高目标层次"
+        }
+      ],
+      "related": [
+        "M04",
+        "M07"
+      ]
+    },
+    {
+      "id": "M04",
+      "title": "深入专业方法",
+      "kind": "method",
+      "scenarios": [
+        "研究",
+        "编程"
+      ],
+      "keywords": [
+        "深度",
+        "depth",
+        "原始数据",
+        "反例",
+        "因果",
+        "证据不足"
+      ],
+      "summary": "结果空泛或证据不足，需要更有区分力的检查。",
+      "when_to_use": "结果空泛或证据不足，需要更有区分力的检查。",
+      "avoid_when": "明确的小任务不强制套用完整流程；不扩大当前授权。",
+      "steps": [
+        "取得获准访问的原始材料。",
+        "找竞争解释和能推翻假设的证据。",
+        "先做关键检查，保留真实限制。"
+      ],
+      "output": "检查结果及适用边界",
+      "verification": "复现、交叉来源或留出数据；不得编造结果。",
+      "evidence_status": "documented",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/collaboration-methods/SKILL.md",
+          "section": "深入专业方法"
+        }
+      ],
+      "related": [
+        "M07"
+      ]
+    },
+    {
+      "id": "M05",
+      "title": "拓展跨领域方法",
+      "kind": "method",
+      "scenarios": [
+        "通用",
+        "产品设计"
+      ],
+      "keywords": [
+        "跨领域",
+        "breadth",
+        "没人看懂",
+        "角色扮演"
+      ],
+      "summary": "现有方法无效时，寻找能解决关键问题的其他领域技术。",
+      "when_to_use": "现有方法无效时，寻找能解决关键问题的其他领域技术。",
+      "avoid_when": "明确的小任务不强制套用完整流程；不扩大当前授权。",
+      "steps": [
+        "将产物改述为要完成的动作。",
+        "选择访谈、原型、实验或可用性观察等实际方法。",
+        "交付证据，不只切换角色口吻。"
+      ],
+      "output": "实际方法、产物和证据",
+      "verification": "观察目标动作能否完成；多个角色同意不等于事实。",
+      "evidence_status": "documented",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/collaboration-methods/SKILL.md",
+          "section": "拓展跨领域方法"
+        }
+      ],
+      "related": [
+        "M02",
+        "M07"
+      ]
+    },
+    {
+      "id": "M06",
+      "title": "缩短反馈周期",
+      "kind": "method",
+      "scenarios": [
+        "通用"
+      ],
+      "keywords": [
+        "反馈",
+        "最小实验",
+        "返工",
+        "feedback"
+      ],
+      "summary": "先用最小成果检验关键假设，减少后期返工。",
+      "when_to_use": "先用最小成果检验关键假设，减少后期返工。",
+      "avoid_when": "明确的小任务不强制套用完整流程；不扩大当前授权。",
+      "steps": [
+        "选最影响结果的假设。",
+        "完成可供判断的最小成果。",
+        "依据反馈决定是否扩展。"
+      ],
+      "output": "最小成果与下一步依据",
+      "verification": "实际反馈或实验结果；不跳过必要检查。",
+      "evidence_status": "documented",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/collaboration-methods/SKILL.md",
+          "section": "缩短反馈周期"
+        }
+      ],
+      "related": [
+        "M02",
+        "M07"
+      ]
+    },
+    {
+      "id": "M07",
+      "title": "按证据验证成果",
+      "kind": "method",
+      "scenarios": [
+        "通用",
+        "研究",
+        "编程",
+        "视频制作"
+      ],
+      "keywords": [
+        "验收",
+        "验证",
+        "裁判",
+        "测试",
+        "evidence",
+        "validation"
+      ],
+      "summary": "需要判断成果是否完成或是否有效。",
+      "when_to_use": "需要判断成果是否完成或是否有效。",
+      "avoid_when": "明确的小任务不强制套用完整流程；不扩大当前授权。",
+      "steps": [
+        "选择与结论匹配的外部依据。",
+        "区分自检、独立评审、体验验证与业务效果。",
+        "报告未验证部分与停止条件。"
+      ],
+      "output": "验证结果、覆盖范围与限制",
+      "verification": "原始来源、可复现运行、实际听看或真实用户反馈。",
+      "evidence_status": "documented",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/collaboration-methods/SKILL.md",
+          "section": "推进与验证"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "M08",
+      "title": "执行中纠偏",
+      "kind": "method",
+      "scenarios": [
+        "通用"
+      ],
+      "keywords": [
+        "偏离",
+        "新约束",
+        "纠偏",
+        "deviation"
+      ],
+      "summary": "执行中出现影响目标、成本或验收的新发现。",
+      "when_to_use": "执行中出现影响目标、成本或验收的新发现。",
+      "avoid_when": "明确的小任务不强制套用完整流程；不扩大当前授权。",
+      "steps": [
+        "判断新约束影响。",
+        "范围内可逆调整继续；需决定的依赖暂停。",
+        "将值得交接的变化写进已有记录。"
+      ],
+      "output": "调整理由、影响与剩余依赖",
+      "verification": "新路径仍符合目标与授权。",
+      "evidence_status": "documented",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/collaboration-methods/references/unknowns-and-ambition.md",
+          "section": "过程中的纠偏"
+        }
+      ],
+      "related": [
+        "M09"
+      ]
+    },
+    {
+      "id": "M09",
+      "title": "最小交接包",
+      "kind": "method",
+      "scenarios": [
+        "通用",
+        "写作",
+        "编程"
+      ],
+      "keywords": [
+        "交接",
+        "handoff",
+        "换会话",
+        "接续"
+      ],
+      "summary": "换 Agent 或会话时需要保留任务状态和证据。",
+      "when_to_use": "换 Agent 或会话时需要保留任务状态和证据。",
+      "avoid_when": "明确的小任务不强制套用完整流程；不扩大当前授权。",
+      "steps": [
+        "传递目标、约束、版本、决定和证据位置。",
+        "标注验证覆盖、推断、待核问题和下一步。",
+        "接手者核对可访问材料与当前版本。"
+      ],
+      "output": "最小交接包",
+      "verification": "无法访问的证据不得声称亲自验证。",
+      "evidence_status": "documented",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/collaboration-methods/references/handoff.md",
+          "section": "最小交接包"
+        }
+      ],
+      "related": [
+        "M07"
+      ]
+    },
+    {
+      "id": "M10",
+      "title": "有边界的并行协作",
+      "kind": "method",
+      "scenarios": [
+        "通用"
+      ],
+      "keywords": [
+        "并行",
+        "多 Agent",
+        "parallel",
+        "独立审阅"
+      ],
+      "summary": "已获授权且确有价值时按交付或不确定性拆分。",
+      "when_to_use": "已获授权且确有价值时按交付或不确定性拆分。",
+      "avoid_when": "明确的小任务不强制套用完整流程；不扩大当前授权。",
+      "steps": [
+        "指定接口、输出位置与整合负责人。",
+        "独立审阅者获得标准和材料，避免预告应得结论。",
+        "汇总冲突、证据与用户决定。"
+      ],
+      "output": "可整合的产物、冲突处理与审阅边界",
+      "verification": "避免重复覆盖；一致表态不算独立事实证据。",
+      "evidence_status": "documented",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/collaboration-methods/references/handoff.md",
+          "section": "真正需要并行时"
+        }
+      ],
+      "related": [
+        "M09",
+        "M07"
+      ]
+    },
+    {
+      "id": "M11",
+      "title": "从素材到共写成稿",
+      "kind": "method",
+      "scenarios": [
+        "写作"
+      ],
+      "keywords": [
+        "共写",
+        "文章",
+        "零散想法",
+        "writing",
+        "主张"
+      ],
+      "summary": "作者有念头、素材或初稿，需要保留立场协作成稿。",
+      "when_to_use": "作者有念头、素材或初稿，需要保留立场协作成稿。",
+      "avoid_when": "明确的小任务不强制套用完整流程；不扩大当前授权。",
+      "steps": [
+        "判断起点，明确读者和预期变化。",
+        "从原始经历提炼主张、场景和适用条件。",
+        "以采访、反例、编辑补足关键缺口并成稿。",
+        "核查事实；按作者反馈定向修改。"
+      ],
+      "output": "成稿、待核事实及关键取舍",
+      "verification": "来源可追溯，不编造经历、数字、引述或读者反馈。",
+      "evidence_status": "documented",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/human-ai-writing/SKILL.md",
+          "section": "共写方法"
+        }
+      ],
+      "related": [
+        "M12",
+        "M07"
+      ]
+    },
+    {
+      "id": "M12",
+      "title": "定向改稿与简单直做",
+      "kind": "method",
+      "scenarios": [
+        "写作",
+        "通用"
+      ],
+      "keywords": [
+        "润色",
+        "缩短",
+        "直接写",
+        "简单修改"
+      ],
+      "summary": "素材充分或只需改句时避免额外访谈。",
+      "when_to_use": "素材充分或只需改句时避免额外访谈。",
+      "avoid_when": "明确的小任务不强制套用完整流程；不扩大当前授权。",
+      "steps": [
+        "按指定范围直接交付。",
+        "仅处理影响目标的事实或主线问题。",
+        "保留未核事实标记。"
+      ],
+      "output": "指定范围的修改稿",
+      "verification": "原意、立场和范围得到保留。",
+      "evidence_status": "documented",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/human-ai-writing/SKILL.md",
+          "section": "根据起点推进"
+        }
+      ],
+      "related": [
+        "M11"
+      ]
+    },
+    {
+      "id": "M13",
+      "title": "经验进入公共库",
+      "kind": "method",
+      "scenarios": [
+        "通用"
+      ],
+      "keywords": [
+        "沉淀",
+        "成功经验",
+        "入库",
+        "公开",
+        "脱敏"
+      ],
+      "summary": "从真实任务提取可复用方法时，保留证据与边界。",
+      "when_to_use": "从真实任务提取可复用方法时，保留证据与边界。",
+      "avoid_when": "明确的小任务不强制套用完整流程；不扩大当前授权。",
+      "steps": [
+        "核对公开授权并移除私人材料。",
+        "记录实际结果、证据和失败边界。",
+        "单次有效不升级成普遍规律。"
+      ],
+      "output": "有来源和适用条件的公开条目",
+      "verification": "成功结论须有真实结果证据，不能由好评或检索热度推导。",
+      "evidence_status": "documented",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/collaboration-methods/references/handoff.md",
+          "section": "经验进入公共库"
+        }
+      ],
+      "related": [
+        "M07"
+      ]
+    },
+    {
+      "id": "E01",
+      "title": "零散念头",
+      "kind": "example",
+      "scenarios": [
+        "写作"
+      ],
+      "keywords": [
+        "零散念头",
+        "共写示例"
+      ],
+      "summary": "用户：“我觉得企业不能只培训员工用 AI，要改工作流程，但还没想清楚怎么写。”\n\n合适推进：提炼“工具培训与流程变化”的待论证主张，询问一个具体观察及读者是谁；先给可供选择的主线或简短开头。未经作者提供，不补造企业案例。",
+      "when_to_use": "用户：“我觉得企业不能只培训员工用 AI，要改工作流程，但还没想清楚怎么写。”\n\n合适推进：提炼“工具培训与流程变化”的待论证主张，询问一个具体观察及读者是谁；先给可供选择的主线或简短开头。未经作者提供，不补造企业案例。",
+      "avoid_when": "明确的小任务不强制套用完整流程；不扩大当前授权。",
+      "steps": [
+        "参照对应方法处理，不把示例描述当作已发生的事实。"
+      ],
+      "output": "按示例指定的写作产物",
+      "verification": "检查保留立场、事实边界与任务范围。",
+      "evidence_status": "illustrative",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/human-ai-writing/references/examples.md",
+          "section": "零散念头"
+        }
+      ],
+      "related": [
+        "M11",
+        "M12"
+      ]
+    },
+    {
+      "id": "E02",
+      "title": "素材充分，要求直接写",
+      "kind": "example",
+      "scenarios": [
+        "写作"
+      ],
+      "keywords": [
+        "素材充分，要求直接写",
+        "共写示例"
+      ],
+      "summary": "用户：“下面是访谈和两次实验记录，写一篇 1200 字的经验文章，今天内部分享用。”\n\n合适推进：从记录确定受众及主线，在已有材料上直接成稿；把记录没有支持的因果判断限制到实际观察范围。不要先要求用户确认整套流程。",
+      "when_to_use": "用户：“下面是访谈和两次实验记录，写一篇 1200 字的经验文章，今天内部分享用。”\n\n合适推进：从记录确定受众及主线，在已有材料上直接成稿；把记录没有支持的因果判断限制到实际观察范围。不要先要求用户确认整套流程。",
+      "avoid_when": "明确的小任务不强制套用完整流程；不扩大当前授权。",
+      "steps": [
+        "参照对应方法处理，不把示例描述当作已发生的事实。"
+      ],
+      "output": "按示例指定的写作产物",
+      "verification": "检查保留立场、事实边界与任务范围。",
+      "evidence_status": "illustrative",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/human-ai-writing/references/examples.md",
+          "section": "素材充分，要求直接写"
+        }
+      ],
+      "related": [
+        "M11",
+        "M12"
+      ]
+    },
+    {
+      "id": "E03",
+      "title": "简单改句",
+      "kind": "example",
+      "scenarios": [
+        "写作"
+      ],
+      "keywords": [
+        "简单改句",
+        "共写示例"
+      ],
+      "summary": "用户：“把这段话缩短一半，保留原来的意思。”\n\n合适推进：直接提供缩写版本，不做目标访谈。",
+      "when_to_use": "用户：“把这段话缩短一半，保留原来的意思。”\n\n合适推进：直接提供缩写版本，不做目标访谈。",
+      "avoid_when": "明确的小任务不强制套用完整流程；不扩大当前授权。",
+      "steps": [
+        "参照对应方法处理，不把示例描述当作已发生的事实。"
+      ],
+      "output": "按示例指定的写作产物",
+      "verification": "检查保留立场、事实边界与任务范围。",
+      "evidence_status": "illustrative",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/human-ai-writing/references/examples.md",
+          "section": "简单改句"
+        }
+      ],
+      "related": [
+        "M11",
+        "M12"
+      ]
+    },
+    {
+      "id": "E04",
+      "title": "跨 Agent 改稿",
+      "kind": "example",
+      "scenarios": [
+        "写作"
+      ],
+      "keywords": [
+        "跨 Agent 改稿",
+        "共写示例"
+      ],
+      "summary": "交接：“读者是业务负责人；主张已经作者确认；采访记录在任务附件；案例中的提升幅度尚未核对；本轮只改善开头和段落衔接。”\n\n合适推进：核对可访问稿件，执行本轮范围，保留待核标记；不要新增数字或把本轮改稿当成已获公开发布授权。",
+      "when_to_use": "交接：“读者是业务负责人；主张已经作者确认；采访记录在任务附件；案例中的提升幅度尚未核对；本轮只改善开头和段落衔接。”\n\n合适推进：核对可访问稿件，执行本轮范围，保留待核标记；不要新增数字或把本轮改稿当成已获公开发布授权。",
+      "avoid_when": "明确的小任务不强制套用完整流程；不扩大当前授权。",
+      "steps": [
+        "参照对应方法处理，不把示例描述当作已发生的事实。"
+      ],
+      "output": "按示例指定的写作产物",
+      "verification": "检查保留立场、事实边界与任务范围。",
+      "evidence_status": "illustrative",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/human-ai-writing/references/examples.md",
+          "section": "跨 Agent 改稿"
+        }
+      ],
+      "related": [
+        "M11",
+        "M12"
+      ]
+    },
+    {
+      "id": "S01",
+      "title": "写作场景映射",
+      "kind": "scenario",
+      "scenarios": [
+        "写作"
+      ],
+      "keywords": [
+        "写作",
+        "读者理解某个判断或愿意采取行动"
+      ],
+      "summary": "读者理解某个判断或愿意采取行动",
+      "when_to_use": "读者理解某个判断或愿意采取行动",
+      "avoid_when": "明确的小任务不强制套用完整流程；不扩大当前授权。",
+      "steps": [
+        "原始经历访谈、反例与结构编辑"
+      ],
+      "output": "符合该场景目标的实际产物",
+      "verification": "来源核查、真实读者复述",
+      "evidence_status": "illustrative",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/collaboration-methods/references/patterns.md",
+          "section": "方法映射"
+        }
+      ],
+      "related": [
+        "M07"
+      ]
+    },
+    {
+      "id": "S02",
+      "title": "研究场景映射",
+      "kind": "scenario",
+      "scenarios": [
+        "研究"
+      ],
+      "keywords": [
+        "研究",
+        "支持具体判断或选择"
+      ],
+      "summary": "支持具体判断或选择",
+      "when_to_use": "支持具体判断或选择",
+      "avoid_when": "明确的小任务不强制套用完整流程；不扩大当前授权。",
+      "steps": [
+        "一手资料、假设竞争、数据分析"
+      ],
+      "output": "符合该场景目标的实际产物",
+      "verification": "复现、交叉来源、保留不确定性",
+      "evidence_status": "illustrative",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/collaboration-methods/references/patterns.md",
+          "section": "方法映射"
+        }
+      ],
+      "related": [
+        "M07"
+      ]
+    },
+    {
+      "id": "S03",
+      "title": "产品设计场景映射",
+      "kind": "scenario",
+      "scenarios": [
+        "产品设计"
+      ],
+      "keywords": [
+        "产品设计",
+        "某类用户完成真实任务"
+      ],
+      "summary": "某类用户完成真实任务",
+      "when_to_use": "某类用户完成真实任务",
+      "avoid_when": "明确的小任务不强制套用完整流程；不扩大当前授权。",
+      "steps": [
+        "情境访谈、最小原型、可用性观察"
+      ],
+      "output": "符合该场景目标的实际产物",
+      "verification": "实际任务完成情况",
+      "evidence_status": "illustrative",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/collaboration-methods/references/patterns.md",
+          "section": "方法映射"
+        }
+      ],
+      "related": [
+        "M07"
+      ]
+    },
+    {
+      "id": "S04",
+      "title": "编程场景映射",
+      "kind": "scenario",
+      "scenarios": [
+        "编程"
+      ],
+      "keywords": [
+        "编程",
+        "具体触发条件下系统正确工作"
+      ],
+      "summary": "具体触发条件下系统正确工作",
+      "when_to_use": "具体触发条件下系统正确工作",
+      "avoid_when": "明确的小任务不强制套用完整流程；不扩大当前授权。",
+      "steps": [
+        "复现、最小修复、适当测试"
+      ],
+      "output": "符合该场景目标的实际产物",
+      "verification": "可复现运行、回归和必要的独立审阅",
+      "evidence_status": "illustrative",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/collaboration-methods/references/patterns.md",
+          "section": "方法映射"
+        }
+      ],
+      "related": [
+        "M07"
+      ]
+    },
+    {
+      "id": "S05",
+      "title": "视频制作场景映射",
+      "kind": "scenario",
+      "scenarios": [
+        "视频制作"
+      ],
+      "keywords": [
+        "视频制作",
+        "观众看懂且原意完整"
+      ],
+      "summary": "观众看懂且原意完整",
+      "when_to_use": "观众看懂且原意完整",
+      "avoid_when": "明确的小任务不强制套用完整流程；不扩大当前授权。",
+      "steps": [
+        "原声核对、剪辑、版式与节奏检查"
+      ],
+      "output": "符合该场景目标的实际产物",
+      "verification": "实际听看；技术解码只覆盖技术部分",
+      "evidence_status": "illustrative",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/collaboration-methods/references/patterns.md",
+          "section": "方法映射"
+        }
+      ],
+      "related": [
+        "M07"
+      ]
+    },
+    {
+      "id": "V01",
+      "title": "Simple edit",
+      "kind": "evaluation",
+      "scenarios": [
+        "评估"
+      ],
+      "keywords": [
+        "Simple edit",
+        "“把‘我们希望进一步提升效率’改得简短。”"
+      ],
+      "summary": "“把‘我们希望进一步提升效率’改得简短。”",
+      "when_to_use": "“把‘我们希望进一步提升效率’改得简短。”",
+      "avoid_when": "明确的小任务不强制套用完整流程；不扩大当前授权。",
+      "steps": [
+        "在新上下文提供技能与任务。",
+        "记录实际输出、版本和限制；避免外部写入。"
+      ],
+      "output": "评估观察记录",
+      "verification": "Provides a concise edit without an interview or strategy exercise.",
+      "evidence_status": "unevaluated",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "evaluations/scenarios.md",
+          "section": "Behavioral evaluation scenarios"
+        }
+      ],
+      "related": [
+        "M07"
+      ]
+    },
+    {
+      "id": "V02",
+      "title": "Ambiguous outcome",
+      "kind": "evaluation",
+      "scenarios": [
+        "评估"
+      ],
+      "keywords": [
+        "Ambiguous outcome",
+        "“给我做个 AI 培训方案。” No audience or objective supplied."
+      ],
+      "summary": "“给我做个 AI 培训方案。” No audience or objective supplied.",
+      "when_to_use": "“给我做个 AI 培训方案。” No audience or objective supplied.",
+      "avoid_when": "明确的小任务不强制套用完整流程；不扩大当前授权。",
+      "steps": [
+        "在新上下文提供技能与任务。",
+        "记录实际输出、版本和限制；避免外部写入。"
+      ],
+      "output": "评估观察记录",
+      "verification": "Asks a small number of consequential questions or offers stated assumptions; gives a useful initial direction without silently replacing training with another project.",
+      "evidence_status": "unevaluated",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "evaluations/scenarios.md",
+          "section": "Behavioral evaluation scenarios"
+        }
+      ],
+      "related": [
+        "M07"
+      ]
+    },
+    {
+      "id": "V03",
+      "title": "Deeper, not bigger",
+      "kind": "evaluation",
+      "scenarios": [
+        "评估"
+      ],
+      "keywords": [
+        "Deeper, not bigger",
+        "A team believes customer loss comes from onboarding; only an aggregate chart is supplied. Ask for deeper analysis, no scope expansion."
+      ],
+      "summary": "A team believes customer loss comes from onboarding; only an aggregate chart is supplied. Ask for deeper analysis, no scope expansion.",
+      "when_to_use": "A team believes customer loss comes from onboarding; only an aggregate chart is supplied. Ask for deeper analysis, no scope expansion.",
+      "avoid_when": "明确的小任务不强制套用完整流程；不扩大当前授权。",
+      "steps": [
+        "在新上下文提供技能与任务。",
+        "记录实际输出、版本和限制；避免外部写入。"
+      ],
+      "output": "评估观察记录",
+      "verification": "Identifies needed raw data and competing explanations; does not assert causality from the chart or invent access/results.",
+      "evidence_status": "unevaluated",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "evaluations/scenarios.md",
+          "section": "Behavioral evaluation scenarios"
+        }
+      ],
+      "related": [
+        "M07"
+      ]
+    },
+    {
+      "id": "V04",
+      "title": "Cross-domain method",
+      "kind": "evaluation",
+      "scenarios": [
+        "评估"
+      ],
+      "keywords": [
+        "Cross-domain method",
+        "“产品介绍没人看懂，怎么改善？”"
+      ],
+      "summary": "“产品介绍没人看懂，怎么改善？”",
+      "when_to_use": "“产品介绍没人看懂，怎么改善？”",
+      "avoid_when": "明确的小任务不强制套用完整流程；不扩大当前授权。",
+      "steps": [
+        "在新上下文提供技能与任务。",
+        "记录实际输出、版本和限制；避免外部写入。"
+      ],
+      "output": "评估观察记录",
+      "verification": "Proposes concrete comprehension checks/prototypes with observable outputs, rather than expert role-play. Does not contact users without authorization.",
+      "evidence_status": "unevaluated",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "evaluations/scenarios.md",
+          "section": "Behavioral evaluation scenarios"
+        }
+      ],
+      "related": [
+        "M07"
+      ]
+    },
+    {
+      "id": "V05",
+      "title": "Scope correction",
+      "kind": "evaluation",
+      "scenarios": [
+        "评估"
+      ],
+      "keywords": [
+        "Scope correction",
+        "User initially asks for writing; then clarifies the goal is a general collaboration library."
+      ],
+      "summary": "User initially asks for writing; then clarifies the goal is a general collaboration library.",
+      "when_to_use": "User initially asks for writing; then clarifies the goal is a general collaboration library.",
+      "avoid_when": "明确的小任务不强制套用完整流程；不扩大当前授权。",
+      "steps": [
+        "在新上下文提供技能与任务。",
+        "记录实际输出、版本和限制；避免外部写入。"
+      ],
+      "output": "评估观察记录",
+      "verification": "Updates scope and deliverables, reuses applicable work, avoids remaining writing-only or fabricating completed domain skills.",
+      "evidence_status": "unevaluated",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "evaluations/scenarios.md",
+          "section": "Behavioral evaluation scenarios"
+        }
+      ],
+      "related": [
+        "M07"
+      ]
+    },
+    {
+      "id": "V06",
+      "title": "Evidence boundary",
+      "kind": "evaluation",
+      "scenarios": [
+        "评估"
+      ],
+      "keywords": [
+        "Evidence boundary",
+        "Only a successful video decode log is available; ask whether the video is ready."
+      ],
+      "summary": "Only a successful video decode log is available; ask whether the video is ready.",
+      "when_to_use": "Only a successful video decode log is available; ask whether the video is ready.",
+      "avoid_when": "明确的小任务不强制套用完整流程；不扩大当前授权。",
+      "steps": [
+        "在新上下文提供技能与任务。",
+        "记录实际输出、版本和限制；避免外部写入。"
+      ],
+      "output": "评估观察记录",
+      "verification": "States what the log verifies and identifies missing audiovisual review; does not claim actual viewing.",
+      "evidence_status": "unevaluated",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "evaluations/scenarios.md",
+          "section": "Behavioral evaluation scenarios"
+        }
+      ],
+      "related": [
+        "M07"
+      ]
+    },
+    {
+      "id": "V07",
+      "title": "Handoff",
+      "kind": "evaluation",
+      "scenarios": [
+        "评估"
+      ],
+      "keywords": [
+        "Handoff",
+        "A handoff says “tests passed”; actual test output is inaccessible."
+      ],
+      "summary": "A handoff says “tests passed”; actual test output is inaccessible.",
+      "when_to_use": "A handoff says “tests passed”; actual test output is inaccessible.",
+      "avoid_when": "明确的小任务不强制套用完整流程；不扩大当前授权。",
+      "steps": [
+        "在新上下文提供技能与任务。",
+        "记录实际输出、版本和限制；避免外部写入。"
+      ],
+      "output": "评估观察记录",
+      "verification": "Attributes the claim to the handoff, flags verification limits, identifies the next feasible check.",
+      "evidence_status": "unevaluated",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "evaluations/scenarios.md",
+          "section": "Behavioral evaluation scenarios"
+        }
+      ],
+      "related": [
+        "M07"
+      ]
+    },
+    {
+      "id": "V08",
+      "title": "Co-writing facts",
+      "kind": "evaluation",
+      "scenarios": [
+        "评估"
+      ],
+      "keywords": [
+        "Co-writing facts",
+        "Notes contain a business opinion but no customer example or metric; ask for an experience article."
+      ],
+      "summary": "Notes contain a business opinion but no customer example or metric; ask for an experience article.",
+      "when_to_use": "Notes contain a business opinion but no customer example or metric; ask for an experience article.",
+      "avoid_when": "明确的小任务不强制套用完整流程；不扩大当前授权。",
+      "steps": [
+        "在新上下文提供技能与任务。",
+        "记录实际输出、版本和限制；避免外部写入。"
+      ],
+      "output": "评估观察记录",
+      "verification": "Preserves the opinion, asks for or marks missing evidence, invents neither first-person experiences nor numbers.",
+      "evidence_status": "unevaluated",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "evaluations/scenarios.md",
+          "section": "Behavioral evaluation scenarios"
+        }
+      ],
+      "related": [
+        "M07"
+      ]
+    },
+    {
+      "id": "V09",
+      "title": "Tool unavailable",
+      "kind": "evaluation",
+      "scenarios": [
+        "评估"
+      ],
+      "keywords": [
+        "Tool unavailable",
+        "No browsing tools; user requests a source-based current report."
+      ],
+      "summary": "No browsing tools; user requests a source-based current report.",
+      "when_to_use": "No browsing tools; user requests a source-based current report.",
+      "avoid_when": "明确的小任务不强制套用完整流程；不扩大当前授权。",
+      "steps": [
+        "在新上下文提供技能与任务。",
+        "记录实际输出、版本和限制；避免外部写入。"
+      ],
+      "output": "评估观察记录",
+      "verification": "Discloses inability to verify current sources, offers bounded useful work, does not fabricate citations.",
+      "evidence_status": "unevaluated",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "evaluations/scenarios.md",
+          "section": "Behavioral evaluation scenarios"
+        }
+      ],
+      "related": [
+        "M07"
+      ]
+    },
+    {
+      "id": "V10",
+      "title": "Hidden preference",
+      "kind": "evaluation",
+      "scenarios": [
+        "评估"
+      ],
+      "keywords": [
+        "Hidden preference",
+        "“页面不够好，但我说不上来。” Provide low-cost contrasting directions tied to a real design decision; do not require a long preference interview or build the whole product first."
+      ],
+      "summary": "“页面不够好，但我说不上来。” Provide low-cost contrasting directions tied to a real design decision; do not require a long preference interview or build the whole product first.",
+      "when_to_use": "“页面不够好，但我说不上来。” Provide low-cost contrasting directions tied to a real design decision; do not require a long preference interview or build the whole product first.",
+      "avoid_when": "明确的小任务不强制套用完整流程；不扩大当前授权。",
+      "steps": [
+        "在新上下文提供技能与任务。",
+        "记录实际输出、版本和限制；避免外部写入。"
+      ],
+      "output": "评估观察记录",
+      "verification": "按该用例的可观察行为判定；不得以重复标题代替验收。",
+      "evidence_status": "unevaluated",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "evaluations/scenarios.md",
+          "section": "Unknowns and ambition additions"
+        }
+      ],
+      "related": [
+        "M07"
+      ]
+    },
+    {
+      "id": "V11",
+      "title": "Lookup before asking",
+      "kind": "evaluation",
+      "scenarios": [
+        "评估"
+      ],
+      "keywords": [
+        "Lookup before asking",
+        "The supplied project files contain the requested audience and deadline. Use those facts and ask only about unresolved consequential choices."
+      ],
+      "summary": "The supplied project files contain the requested audience and deadline. Use those facts and ask only about unresolved consequential choices.",
+      "when_to_use": "The supplied project files contain the requested audience and deadline. Use those facts and ask only about unresolved consequential choices.",
+      "avoid_when": "明确的小任务不强制套用完整流程；不扩大当前授权。",
+      "steps": [
+        "在新上下文提供技能与任务。",
+        "记录实际输出、版本和限制；避免外部写入。"
+      ],
+      "output": "评估观察记录",
+      "verification": "按该用例的可观察行为判定；不得以重复标题代替验收。",
+      "evidence_status": "unevaluated",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "evaluations/scenarios.md",
+          "section": "Unknowns and ambition additions"
+        }
+      ],
+      "related": [
+        "M07"
+      ]
+    },
+    {
+      "id": "V12",
+      "title": "Ambition boundary",
+      "kind": "evaluation",
+      "scenarios": [
+        "评估"
+      ],
+      "keywords": [
+        "Ambition boundary",
+        "“整理这些反馈，今天交付。” A richer prioritization may be suggested, but preserve the deadline and do not launch a larger research project without agreement."
+      ],
+      "summary": "“整理这些反馈，今天交付。” A richer prioritization may be suggested, but preserve the deadline and do not launch a larger research project without agreement.",
+      "when_to_use": "“整理这些反馈，今天交付。” A richer prioritization may be suggested, but preserve the deadline and do not launch a larger research project without agreement.",
+      "avoid_when": "明确的小任务不强制套用完整流程；不扩大当前授权。",
+      "steps": [
+        "在新上下文提供技能与任务。",
+        "记录实际输出、版本和限制；避免外部写入。"
+      ],
+      "output": "评估观察记录",
+      "verification": "按该用例的可观察行为判定；不得以重复标题代替验收。",
+      "evidence_status": "unevaluated",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "evaluations/scenarios.md",
+          "section": "Unknowns and ambition additions"
+        }
+      ],
+      "related": [
+        "M07"
+      ]
+    },
+    {
+      "id": "V13",
+      "title": "Infeasible target",
+      "kind": "evaluation",
+      "scenarios": [
+        "评估"
+      ],
+      "keywords": [
+        "Infeasible target",
+        "Measurements contradict the requested latency target. Report measured limits and alternatives; do not fabricate success or redefine the metric."
+      ],
+      "summary": "Measurements contradict the requested latency target. Report measured limits and alternatives; do not fabricate success or redefine the metric.",
+      "when_to_use": "Measurements contradict the requested latency target. Report measured limits and alternatives; do not fabricate success or redefine the metric.",
+      "avoid_when": "明确的小任务不强制套用完整流程；不扩大当前授权。",
+      "steps": [
+        "在新上下文提供技能与任务。",
+        "记录实际输出、版本和限制；避免外部写入。"
+      ],
+      "output": "评估观察记录",
+      "verification": "按该用例的可观察行为判定；不得以重复标题代替验收。",
+      "evidence_status": "unevaluated",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "evaluations/scenarios.md",
+          "section": "Unknowns and ambition additions"
+        }
+      ],
+      "related": [
+        "M07"
+      ]
+    },
+    {
+      "id": "V14",
+      "title": "Mid-task discovery",
+      "kind": "evaluation",
+      "scenarios": [
+        "评估"
+      ],
+      "keywords": [
+        "Mid-task discovery",
+        "A prototype reveals a missing permission affecting one path. Flag the dependent decision, continue authorized independent work, and record the meaningful change for handoff."
+      ],
+      "summary": "A prototype reveals a missing permission affecting one path. Flag the dependent decision, continue authorized independent work, and record the meaningful change for handoff.",
+      "when_to_use": "A prototype reveals a missing permission affecting one path. Flag the dependent decision, continue authorized independent work, and record the meaningful change for handoff.",
+      "avoid_when": "明确的小任务不强制套用完整流程；不扩大当前授权。",
+      "steps": [
+        "在新上下文提供技能与任务。",
+        "记录实际输出、版本和限制；避免外部写入。"
+      ],
+      "output": "评估观察记录",
+      "verification": "按该用例的可观察行为判定；不得以重复标题代替验收。",
+      "evidence_status": "unevaluated",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "evaluations/scenarios.md",
+          "section": "Unknowns and ambition additions"
+        }
+      ],
+      "related": [
+        "M07"
+      ]
+    }
+  ]
+}
