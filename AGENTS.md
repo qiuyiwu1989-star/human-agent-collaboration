@@ -10,3 +10,5 @@
 - For behavioral evaluation, use evaluations/scenarios.md or a fresh realistic task. Keep generated evaluation artifacts outside the repository unless explicitly selected as public evidence.
 
 - Structured records live in skills/collaboration-library/references/catalog.json. Keep IDs stable; update affected cards when source methods change. Regenerate index.md with scripts/build_index.py and run the repository tests. Examples and evaluation prompts must never be promoted to observed success without public outcome evidence.
+
+- GUIDE.md is the repository-wide dispatch guide. When adding or retiring methods, keep its routing and README entry consistent with the catalog. It summarizes routing; it is not a second editable copy of method cards.
