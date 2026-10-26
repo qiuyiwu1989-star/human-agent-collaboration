@@ -2518,6 +2518,291 @@
       "related": [
         "M27"
       ]
+    },
+    {
+      "id": "M46",
+      "title": "输入覆盖先于内容提炼",
+      "kind": "method",
+      "scenarios": [
+        "知识管理"
+      ],
+      "keywords": [
+        "全文",
+        "节选",
+        "仅标题",
+        "覆盖范围"
+      ],
+      "summary": "只有摘要、链接或节选时容易把推测写成完整阅读。",
+      "when_to_use": "只有摘要、链接或节选时容易把推测写成完整阅读。",
+      "avoid_when": "不能因为格式齐全就称完成深读。",
+      "steps": [
+        "声明实际取得的正文、节选或链接范围。",
+        "提炼问题、主张、证据及边界，增量推断单列。",
+        "资料不足则保留缺口，不依据标题重建原文。"
+      ],
+      "output": "有覆盖声明的提炼稿",
+      "verification": "节选不冒充全文，引用可定位。",
+      "evidence_status": "documented",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/collaboration-library/references/sources/additional-reading-archive.md",
+          "section": "输入覆盖先于内容提炼"
+        }
+      ],
+      "related": [
+        "M40",
+        "M07"
+      ]
+    },
+    {
+      "id": "M47",
+      "title": "模型迁移与情境检验",
+      "kind": "method",
+      "scenarios": [
+        "研究"
+      ],
+      "keywords": [
+        "读书",
+        "迁移测试",
+        "模型",
+        "反例"
+      ],
+      "summary": "阅读成果需要转化为能在实际任务使用的方法。",
+      "when_to_use": "阅读成果需要转化为能在实际任务使用的方法。",
+      "avoid_when": "只知道书名时不得编造原书引文或案例。",
+      "steps": [
+        "定位原材料要解决的问题和模型。",
+        "选择新情境测试迁移，检查前提、反例、成本。",
+        "给出可执行的下一步及失败判据。"
+      ],
+      "output": "模型与迁移检验",
+      "verification": "区分原书案例和本次构造的迁移示例。",
+      "evidence_status": "documented",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/collaboration-library/references/sources/additional-book-press.md",
+          "section": "模型迁移与情境检验"
+        }
+      ],
+      "related": [
+        "M07"
+      ]
+    },
+    {
+      "id": "M48",
+      "title": "来源平台与媒体状态分离",
+      "kind": "method",
+      "scenarios": [
+        "知识管理"
+      ],
+      "keywords": [
+        "视频",
+        "link_only",
+        "file_saved",
+        "平台"
+      ],
+      "summary": "媒体归档容易混淆收藏链接、取得文件和完成转录。",
+      "when_to_use": "媒体归档容易混淆收藏链接、取得文件和完成转录。",
+      "avoid_when": "不能凭内容提到某平台推断来源平台。",
+      "steps": [
+        "分别记录平台、账号、原始链接、媒体与转录状态。",
+        "先按原始来源查重，未知身份留空。",
+        "逐项验证实际文件、来源入口和检索展示。"
+      ],
+      "output": "准确的媒体元数据",
+      "verification": "CDN 地址不替代原始来源，没听看不编造时间轴。",
+      "evidence_status": "documented",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/collaboration-library/references/sources/additional-video-archive.md",
+          "section": "来源平台与媒体状态分离"
+        }
+      ],
+      "related": [
+        "M40",
+        "M07"
+      ]
+    },
+    {
+      "id": "M49",
+      "title": "版本冲突先读取比较再合并",
+      "kind": "method",
+      "scenarios": [
+        "知识管理"
+      ],
+      "keywords": [
+        "修订",
+        "expected_revision",
+        "冲突",
+        "覆盖"
+      ],
+      "summary": "多个 Agent 或设备维护同一成果。",
+      "when_to_use": "多个 Agent 或设备维护同一成果。",
+      "avoid_when": "接口未支持版本守卫时不能假装已有并发保护。",
+      "steps": [
+        "修订带原记录 ID、期望版本和理由。",
+        "冲突后读新版本并比较，保留双方有意义的内容。",
+        "核对生效版本，保留回滚历史。"
+      ],
+      "output": "版本明确的修订",
+      "verification": "不能换标题绕过重复检查，不能用局部目录覆盖完整索引。",
+      "evidence_status": "documented",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/collaboration-library/references/sources/additional-vault-maintain.md",
+          "section": "版本冲突先读取比较再合并"
+        }
+      ],
+      "related": [
+        "M40",
+        "M07"
+      ]
+    },
+    {
+      "id": "M50",
+      "title": "事件时间与采集时间分离",
+      "kind": "method",
+      "scenarios": [
+        "研究"
+      ],
+      "keywords": [
+        "日报",
+        "事件日期",
+        "采集日期",
+        "旧闻"
+      ],
+      "summary": "持续汇总资料时可能把旧内容包装成最新动态。",
+      "when_to_use": "持续汇总资料时可能把旧内容包装成最新动态。",
+      "avoid_when": "生成日报不自动授权定时任务或消息投递。",
+      "steps": [
+        "分别记录事件、来源发布和采集日期。",
+        "同一事件去重，只使用实际取得的材料。",
+        "没有新内容时标回顾或留空，推断与原作者观点分开。"
+      ],
+      "output": "带时间与来源的观察",
+      "verification": "发布、演示、可用和效果验证分别表述。",
+      "evidence_status": "documented",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/collaboration-library/references/sources/additional-builders-digest.md",
+          "section": "事件时间与采集时间分离"
+        }
+      ],
+      "related": [
+        "M07"
+      ]
+    },
+    {
+      "id": "M51",
+      "title": "长音频分片缓存与双重验收",
+      "kind": "method",
+      "scenarios": [
+        "内容制作"
+      ],
+      "keywords": [
+        "音频",
+        "分片",
+        "缓存",
+        "试听"
+      ],
+      "summary": "长音频生成容易重做已成功片段或只检查解码。",
+      "when_to_use": "长音频生成容易重做已成功片段或只检查解码。",
+      "avoid_when": "不照搬历史模型参数；失败不能静默换生成服务。",
+      "steps": [
+        "按语义和服务限制分段，用内容缓存复用成功片段。",
+        "合并前核对采样率、位宽和声道。",
+        "分别检查解码、时长与实际试听。"
+      ],
+      "output": "可恢复生成的音频与验收记录",
+      "verification": "技术可播放不证明发音、停顿和内容正确。",
+      "evidence_status": "documented",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/collaboration-library/references/sources/additional-vault-daily-brief.md",
+          "section": "长音频分片缓存与双重验收"
+        }
+      ],
+      "related": [
+        "M07"
+      ]
+    },
+    {
+      "id": "M52",
+      "title": "引用的四维核验",
+      "kind": "method",
+      "scenarios": [
+        "知识管理"
+      ],
+      "keywords": [
+        "引文",
+        "说话人",
+        "有效期",
+        "external fact"
+      ],
+      "summary": "有原话出处仍可能误认说话人、真假或当前立场。",
+      "when_to_use": "有原话出处仍可能误认说话人、真假或当前立场。",
+      "avoid_when": "成果引用原判断不构成该判断的新增独立佐证。",
+      "steps": [
+        "分别检查逐字准确、归属确认、陈述类型和当前有效性。",
+        "历史观点注明日期与被取代状态。",
+        "外部事实另找证据，不把引用存在当成事实为真。"
+      ],
+      "output": "四维核验后的引用",
+      "verification": "原话命中不证明身份已确认，人物标签推断不写成确定归属。",
+      "evidence_status": "documented",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/collaboration-library/references/sources/additional-deepbrain.md",
+          "section": "引用的四维核验"
+        }
+      ],
+      "related": [
+        "M40",
+        "M07"
+      ]
+    },
+    {
+      "id": "M53",
+      "title": "同步与判断分责及回归复核",
+      "kind": "method",
+      "scenarios": [
+        "知识管理"
+      ],
+      "keywords": [
+        "跨设备",
+        "同步",
+        "长期离开",
+        "回归"
+      ],
+      "summary": "资料同步后容易误以为内容也已重新核验。",
+      "when_to_use": "资料同步后容易误以为内容也已重新核验。",
+      "avoid_when": "不复制特定 Agent 分工或固定天数为通用规则；冲突不得静默覆盖。",
+      "steps": [
+        "同步层只负责版本、传输与回执，判断层负责解释和更正。",
+        "按实际间隔与项目变化复核未结项：仍成立、需复核或失效。",
+        "用原始记录补缺，不凭回忆编造工作日志。"
+      ],
+      "output": "可接续资料与当前状态",
+      "verification": "跨端实际读取验证同步；同步成功不等于判断确认。",
+      "evidence_status": "documented",
+      "outcome": null,
+      "sources": [
+        {
+          "path": "skills/collaboration-library/references/sources/additional-qmem.md",
+          "section": "同步与判断分责及回归复核"
+        }
+      ],
+      "related": [
+        "M40",
+        "M07"
+      ]
     }
   ]
 }

@@ -42,7 +42,7 @@ cp -R skills/human-ai-writing ~/.codex/skills/
 
 ## 结构化目录与检索
 
-当前共有 **3 个可安装 Skill**，其中 collaboration-library 是检索入口，不是新增的一套协作理论。结构化目录包含 **45 个方法条目、4 个典型示例、5 个场景映射、14 个待运行评估用例、6 个实战复盘案例**。这些是不同粒度，不能相加称作 74 种方法。6 个实战案例标记为 reported-outcome（来源复盘报告），本轮独立复验的历史成功案例为 **0 条**。示例、历史报告和直接观察分开，不把上线或测试通过当成真实业务效果。
+当前共有 **3 个可安装 Skill**，其中 collaboration-library 是检索入口，不是新增的一套协作理论。结构化目录包含 **53 个方法条目、4 个典型示例、5 个场景映射、14 个待运行评估用例、6 个实战复盘案例**。这些是不同粒度，不能相加称作 82 种方法。6 个实战案例标记为 reported-outcome（来源复盘报告），本轮独立复验的历史成功案例为 **0 条**。示例、历史报告和直接观察分开，不把上线或测试通过当成真实业务效果。
 
 - 人阅读：[分类目录](skills/collaboration-library/references/index.md)。
 - AI 调用：[统一检索 Skill](skills/collaboration-library/SKILL.md)。

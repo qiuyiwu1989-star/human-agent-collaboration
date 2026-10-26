@@ -41,7 +41,7 @@ class LibraryTests(unittest.TestCase):
         self.assertEqual(search.search(records,status='observed-success'),[])
         self.assertEqual(search.search(records,'zzzzunmatchedterm'),[])
     def test_mined_methods_and_reported_outcomes(self):
-        for query,title in [('负向测试 历史缺陷','事故驱动门禁与负向测试'),('accepted 回读 reportedAt','指令接受不等于设备完成'),('request_id 回执 重试','幂等写回与不确定结果恢复')]:
+        for query,title in [('负向测试 历史缺陷','事故驱动门禁与负向测试'),('accepted 回读 reportedAt','指令接受不等于设备完成'),('request_id 回执 重试','幂等写回与不确定结果恢复'),('引文 说话人 有效期','引用的四维核验'),('音频 分片 缓存','长音频分片缓存与双重验收')]:
             self.assertIn(title,[r['title'] for _,r in search.search(records,query,kind='method')[:3]])
         cases=search.search(records,status='reported-outcome')
         self.assertEqual(len(cases),6)
