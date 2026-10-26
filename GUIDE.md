@@ -107,3 +107,7 @@ git diff --check
 安装三个 Skill 的具体说明见 [README](README.md)。发布到 GitHub 不会自动更新各设备的已安装副本；需按该环境的安装方式更新，并以实际技能发现清单为准。
 
 本轮本地挖掘范围、未覆盖内容和去重方式见 [挖掘记录](docs/local-mining-2026-10-26.md)。
+
+## 个人网站技能中心
+
+[接入状态与维护说明](docs/skill-center-connection.md)：三个完整技能包已接入本地预览并绑定身份；公网生产接入尚未完成。
